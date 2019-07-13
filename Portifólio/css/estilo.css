@@ -1,0 +1,157 @@
+/* Estrutura do site */
+
+body {
+    margin: 0px;
+}
+
+.imagem {
+    background: url(../img/img3.jpg);     
+    background-repeat: no-repeat;    
+    background-size: 100%;
+}
+
+.imagem2 {
+    background: url(../img/img3_sem.jpg);     
+    background-repeat: no-repeat;    
+    background-size: 100%;
+}
+
+#menu a {
+    text-decoration: none;  /* Decoração de texto */
+    color: white;
+}
+
+#menu a:hover {
+    color: #4169E1; /* Decoração texto menu */
+    border-bottom: 1px solid #696969;
+}
+
+a:hover {
+    color: #4169E1; /* Decoração texto menu */
+    border-bottom: 1px solid #696969;
+}
+
+#menu ul li {
+    display: inline-block; /* Menu principal */
+    font-family: Arial;
+    font-size: 15pt;    
+    margin-right: 2%;
+}
+
+#menu ul {
+    text-align: center; /* Alinhamento texto menu */
+    padding: 1%;
+    
+}
+
+#sobre {
+    margin: center;
+    margin-top: -5%;
+    width: 100%;
+    height: 100px;
+    object-fit: fill;
+}
+
+#foto_perfil{
+    width: 25%;
+    margin-left: 38%;
+    margin-right: 20%;
+    margin-top: 6%;
+}
+
+h1{
+    font-family: 'Segoe UI';
+    text-align: center;
+    color: white;
+}
+
+#ola{
+    color: white;
+    font: normal 20pt Arial;
+    text-align: center;
+} 
+
+#trabalhos_r{
+    color: white;
+    font: normal 30pt Arial;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Segoe UI';
+    text-align: center;
+    color: white;
+}
+
+#icon{
+    width: 11%;
+    margin-left: 45%;
+    margin-right: 20%;
+}
+
+#trabalhos{
+    color: #4169E1;
+    text-align: center;
+    font-size: 40px;
+}
+
+#msg_contato{
+    margin-top: 9%;
+    color: white;
+    font: normal 30pt Arial;
+    text-align: center;
+}
+
+#nome{
+    border-radius: 10px;
+}
+
+#email{
+    border-radius: 10px;
+}
+
+#msg{
+    border-radius: 10px;
+}
+
+#submit{
+    
+    
+}
+
+#texto_contato{
+    color: #4169E1;
+    text-align: center;
+    font-size: 40px;
+}
+
+#form{
+    text-align: center;
+}
+
+#submit{
+    border-radius: 20px;
+}
+
+#msg{
+    height: 80px;
+}
+
+footer>p a {
+    padding: 2px 10px; /* Separaçao de texto roda pé da pagina */
+    text-decoration: none; 
+    color: white; 
+}
+
+footer {
+	clear: both;  /* Decoração roda pé da pagina */
+	padding: 20px 0 30px 0;
+    text-align: center;
+    margin-top: 40%;
+}
+
+p {
+    font-size: 12px; 
+    font-family: 'Segoe UI';
+    color: white;
+}
